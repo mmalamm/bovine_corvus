@@ -1,0 +1,17 @@
+{
+  "name": "bovine_corvus",
+  "version": "1.0.0",
+  "description": "bovine_corvus",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M M Alam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
