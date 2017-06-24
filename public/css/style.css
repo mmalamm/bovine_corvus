@@ -3,7 +3,7 @@ body {
   font-family: 'Bitter', serif;
   background-color: black;
   align-items: stretch;
-  margin: 15px;
+  margin: 25px;
 }
 
 header {
@@ -29,11 +29,12 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  padding-bottom: 10px;
 }
 
 #cs img {
   width: auto;
-  height: 50%;
+  height: 60%;
   margin-top: 10px;
   padding-top: 50px;
 }
