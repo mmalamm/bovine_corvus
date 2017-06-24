@@ -4,6 +4,7 @@ body {
   background-color: black;
   align-items: stretch;
   margin: 25px;
+  overflow: hidden;
 }
 
 header {
