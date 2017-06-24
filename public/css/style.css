@@ -37,3 +37,11 @@ header {
   margin-top: 10px;
   padding-top: 50px;
 }
+
+footer {
+  margin: 0 auto;
+  color: #708090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
