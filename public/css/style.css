@@ -70,14 +70,14 @@ footer {
 
 .logo {
   stroke: black;
-  stroke-width: 18;
+  stroke-width: 16;
 
   animation: offset 1s linear forwards, fill-it .8s 1s forwards;
 }
 
 .logo-bigpath {
-  stroke-dasharray: 11380;
-  stroke-dashoffset: 11380;
+  stroke-dasharray: 11400;
+  stroke-dashoffset: 11400;
 }
 
 .logo-earpath {
