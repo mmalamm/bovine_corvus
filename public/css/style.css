@@ -76,13 +76,13 @@ footer {
 }
 
 .logo-bigpath {
-  stroke-dasharray: 11370;
-  stroke-dashoffset: 11370;
+  stroke-dasharray: 11380;
+  stroke-dashoffset: 11380;
 }
 
 .logo-earpath {
-  stroke-dasharray: 2135;
-  stroke-dashoffset: 2135;
+  stroke-dasharray: 2140;
+  stroke-dashoffset: 2140;
 }
 
 .logo-smallpath {
@@ -96,8 +96,8 @@ footer {
 }
 
 .logo-chinpath {
-  stroke-dasharray: 1310;
-  stroke-dashoffset: 1310;
+  stroke-dasharray: 1315;
+  stroke-dashoffset: 1315;
 }
 
 .logo-neckpath {
