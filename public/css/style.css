@@ -72,7 +72,7 @@ footer {
   stroke: black;
   stroke-width: 16;
 
-  animation: offset 1s linear forwards, fill-it .8s 1s forwards;
+  animation: offset 2s linear forwards, fill-it .8s 2s forwards;
 }
 
 .logo-bigpath {
