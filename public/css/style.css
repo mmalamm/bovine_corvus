@@ -33,9 +33,9 @@ header {
   padding-bottom: 10px;
 }
 
-#cs img {
+#cs svg {
   width: auto;
-  height: 60%;
+  height: 100%;
   margin-top: 10px;
   padding-top: 50px;
 }
