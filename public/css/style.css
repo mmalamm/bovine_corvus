@@ -47,3 +47,60 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/*svg animations*/
+
+/*keyframes*/
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-it {
+  100%{
+    fill: black;
+    stroke-width: 8;
+  }
+}
+
+.logo {
+  fill: transparent;
+}
+
+.logo {
+  stroke: black;
+  stroke-width: 18;
+
+  animation: offset 1s linear forwards, fill-it .8s 1s forwards;
+}
+
+.logo-bigpath {
+  stroke-dasharray: 11370;
+  stroke-dashoffset: 11370;
+}
+
+.logo-earpath {
+  stroke-dasharray: 2135;
+  stroke-dashoffset: 2135;
+}
+
+.logo-smallpath {
+  stroke-dasharray: 935;
+  stroke-dashoffset: 935;
+}
+
+.logo-nosepath {
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
+}
+
+.logo-chinpath {
+  stroke-dasharray: 1310;
+  stroke-dashoffset: 1310;
+}
+
+.logo-neckpath {
+  stroke-dasharray: 1225;
+  stroke-dashoffset: 1225;
+}
