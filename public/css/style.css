@@ -21,10 +21,7 @@ header {
 #cs {
   width: 100%;
   height: 80vh;
-  align-self: stretch;
   background-color: #708090;
-  position: relative;
-  /*transform: translateY(30%);*/
   display: flex;
   flex-direction: column;
   justify-content: center;
