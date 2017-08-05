@@ -20,7 +20,8 @@ passport.use(
     {
       clientID: secrets.githubClientID,
       clientSecret: secrets.githubClientSecret,
-      callbackURL: '/auth/github/callback'
+      callbackURL: '/auth/github/callback',
+      proxy: true
     },
     (accessToken, refreshToken, profile, done) => {
       User.findOne({ githubId: profile.id }).then(existingUser => {
