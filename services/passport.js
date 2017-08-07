@@ -20,7 +20,7 @@ passport.use(
     {
       clientID: secrets.githubClientID,
       clientSecret: secrets.githubClientSecret,
-      callbackURL: '/auth/github/callback',
+      callbackURL: 'https://bovine-corvus.herokuapp.com/auth/github/callback',
       proxy: true
     },
     (accessToken, refreshToken, profile, done) => {
