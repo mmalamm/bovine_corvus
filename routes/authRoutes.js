@@ -8,7 +8,7 @@ module.exports = app => {
     })
   );
 
-  app.get('/auth/github/callback', passport.authenticate('github'));
+  app.get('/auth/github/callback', passport.authenticate('github', { failureRedirect: '/failed'}), (req, res) => res.send(req.user));
 
   app.get('/api/logout', (req, res) => {
     req.logout();
