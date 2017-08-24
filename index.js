@@ -21,7 +21,9 @@ app.use(
 
 app.use(passport.initialize());
 app.use(passport.session());
-
+app.use('/pic', (req, res) => {
+  res.sendFile(path.join(__dirname + '/input.jpg'));
+});
 
 require('./routes/authRoutes')(app);
 
