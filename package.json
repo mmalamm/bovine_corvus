@@ -14,15 +14,17 @@
   "author": "M M Alam",
   "license": "MIT",
   "dependencies": {
-    "cookie-session": "^1.3.0",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.5",
-    "nodemon": "^1.11.0",
+    "cookie-session": "^1.3.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.3.2",
+    "nodemon": "^1.18.4",
     "passport": "^0.3.2",
     "passport-github2": "^0.1.10",
-    "serve-favicon": "^2.4.3"
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^2.0.1"
   }
 }
